@@ -1,0 +1,29 @@
+
+.app-conatiner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #eee;
+}
+.sidebar, .controller {
+    margin: 0;
+    padding-left: 10px;
+}
+.homepara {
+    border: 1px solid black;
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+    margin: 25px 25px;
+    padding: 25px 25px;
+}
+.anchor_class {
+    text-align: center;
+}
+mat-list-item:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+

@@ -1,0 +1,24 @@
+button {
+    
+    height: 10%;
+}
+.profilepara {
+    border: 1px dashed black;
+    font-style: normal;
+    font-size: 25px;
+    margin: 25px 25px;
+    padding: 25px 25px;
+}
+.personicon {
+    font-size: 100px;
+}
+.personiconalign {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4%;
+    margin: 35px 530px;
+}
+h3 {
+    margin-left: 10px;
+}
+

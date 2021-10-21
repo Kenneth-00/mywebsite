@@ -1,0 +1,58 @@
+.gallerypara {
+    border: 1px dashed black;
+    font-style: normal;
+    font-size: 25px;
+    margin: 25px 25px;
+    padding: 25px 25px;
+}
+.body
+{
+	margin: auto;
+	padding: auto;
+	background: #313131;
+}
+.images
+{
+	text-align: center;
+	width: 800px;
+	height: 800px;
+	background-image: url(/assets/pictures/Album/1.png);
+	margin: auto;
+	box-shadow: 0 0 60px rgba(0, 0, 0, 1);
+	animation: fade 20s infinite;
+}
+@keyframes fade{
+	0%{
+		background-image: url(/assets/pictures/Album/2.png);
+	}
+	10%{
+		background-image: url(/assets/pictures/Album/3.png);
+	}
+	20%{
+		background-image: url(/assets/pictures/Album/4.png);
+	}
+	30%{
+		background-image: url(/assets/pictures/Album/5.png);
+	}
+	40%{
+		background-image: url(/assets/pictures/Album/6.png);
+	}
+	50%{
+		background-image: url(/assets/pictures/Album/7.png);
+	}
+	60%{
+		background-image: url(/assets/pictures/Album/8.png);
+	}
+	70%{
+		background-image: url(/assets/pictures/Album/9.png);
+	}
+	80%{
+		background-image: url(/assets/pictures/Album/10.png);
+	}
+	90%{
+		background-image: url(/assets/pictures/Album/11.png);
+	}
+	100%{
+		background-image: url(/assets/pictures/Album/1.png);
+	}
+}
