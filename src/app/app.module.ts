@@ -14,7 +14,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { HomeComponent } from './pages/home/home.component';
 import { MatDividerModule } from '@angular/material/divider';
-
+import { MatGridListModule } from '@angular/material/grid-list'
 
 const routes: Routes = [
   {
@@ -49,7 +49,8 @@ const routes: Routes = [
     MatSidenavModule,
     MatListModule,
     MatToolbarModule,
-    MatDividerModule
+    MatDividerModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
